@@ -18,6 +18,6 @@ Rails.application.routes.draw do
 end
 
 
-#http verb
-#path - path in the URL bar that the route is mapped to
-#controller action tells rails the routing system 
+#http verb  ex: get
+#path - path in the URL bar that the route is mapped to ex: /users/new
+#controller action tells rails the routing system  users#new
