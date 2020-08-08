@@ -44,6 +44,7 @@ describe 'Feature Test: User Signup', :type => :feature do
     expect(page.get_rack_session_key('user_id')).to_not be_nil
   end
 
+#COME BACK AND EDIT:
 <<-HEREDOC
   it 'prevents user from viewing user show page and redirects to home page if not logged in' do
     create_standard_user
