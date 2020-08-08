@@ -45,14 +45,14 @@ describe 'Feature Test: User Signup', :type => :feature do
   end
 
 #COME BACK AND EDIT:
-<<-HEREDOC
-  it 'prevents user from viewing user show page and redirects to home page if not logged in' do
-    create_standard_user
-    visit '/users/1'
-    expect(current_path).to eq('/')
-    expect(page).to have_content("Sign Up")
-  end
-  HEREDOC
+
+#  it 'prevents user from viewing user show page and redirects to home page if not logged in' do
+#    create_standard_user
+  #  visit '/users/1'
+  #  expect(current_path).to eq('/')
+  #  expect(page).to have_content("Sign Up")
+#  end
+
 
 
   it 'successfully signs up as admin' do
