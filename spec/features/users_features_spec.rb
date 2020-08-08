@@ -91,7 +91,7 @@ describe 'Feature Test: User Signup', :type => :feature do
   end
 
 end
-
+<<-HEREDOC
 describe 'Feature Test: User Signout', :type => :feature do
 
   it 'has a link to log out from the users/show page' do
@@ -100,6 +100,7 @@ describe 'Feature Test: User Signout', :type => :feature do
     user_signup
     expect(page).to have_content("Log Out")
   end
+    HEREDOC 
 
   it 'redirects to home page after logging out' do
     visit '/users/new'
