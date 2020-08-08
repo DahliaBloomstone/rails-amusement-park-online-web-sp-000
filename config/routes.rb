@@ -16,3 +16,6 @@ Rails.application.routes.draw do
   post '/attractions', to: 'attractions#create'
   post '/rides', to:"rides#create", as: 'rides'
 end
+
+
+
