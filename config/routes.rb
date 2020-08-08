@@ -20,6 +20,7 @@ end
 
 #http verb  ex: get
 #path - path in the URL bar that the route is mapped to ex: /users/new
-#controller action tells rails the routing system  ex: users#new is def new
+#controller action tells rails the routing system
+# ex: users#new is def new
 #  @user = User.new
 #end
