@@ -111,13 +111,13 @@ end
   #  expect(current_path).to eq('/')
 #  end
 
-  it "successfully destroys session hash when 'Log Out' is clicked" do
-    visit '/users/new'
+  #it "successfully destroys session hash when 'Log Out' is clicked" do
+  #  visit '/users/new'
     # user_signup method is defined in login_helper.rb
-    user_signup
-    click_link("Log Out")
-    expect(page.get_rack_session).to_not include("user_id")
-  end
+  #  user_signup
+  #  click_link("Log Out")
+  #  expect(page.get_rack_session).to_not include("user_id")
+#  end
 
   it 'has a link to log out from the users/show page when user is an admin' do
     visit '/users/new'
