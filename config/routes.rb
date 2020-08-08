@@ -16,3 +16,8 @@ Rails.application.routes.draw do
   post '/attractions', to: 'attractions#create'
   post '/rides', to:"rides#create", as: 'rides'
 end
+
+
+#http verb
+#path - path in the URL bar that the route is mapped to
+#controller action tells rails the routing system 
