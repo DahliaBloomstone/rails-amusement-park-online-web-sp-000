@@ -101,15 +101,15 @@ end
   #  user_signup
   #  expect(page).to have_content("Log Out")
 #  end
-#  PAUSE  
+#  PAUSE
 
-  it 'redirects to home page after logging out' do
-    visit '/users/new'
+#  it 'redirects to home page after logging out' do
+  #  visit '/users/new'
     # user_signup method is defined in login_helper.rb
-    user_signup
-    click_link("Log Out")
-    expect(current_path).to eq('/')
-  end
+  #  user_signup
+  #  click_link("Log Out")
+  #  expect(current_path).to eq('/')
+#  end
 
   it "successfully destroys session hash when 'Log Out' is clicked" do
     visit '/users/new'
