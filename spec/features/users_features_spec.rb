@@ -92,16 +92,16 @@ describe 'Feature Test: User Signup', :type => :feature do
 
 end
 
-<<-PAUSE
-describe 'Feature Test: User Signout', :type => :feature do
 
-  it 'has a link to log out from the users/show page' do
-    visit '/users/new'
+#describe 'Feature Test: User Signout', :type => :feature do
+
+#  it 'has a link to log out from the users/show page' do
+  #  visit '/users/new'
     # user_signup method is defined in login_helper.rb
-    user_signup
-    expect(page).to have_content("Log Out")
-  end
-  PAUSE  
+  #  user_signup
+  #  expect(page).to have_content("Log Out")
+#  end
+#  PAUSE  
 
   it 'redirects to home page after logging out' do
     visit '/users/new'
