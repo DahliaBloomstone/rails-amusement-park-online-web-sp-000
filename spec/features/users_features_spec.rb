@@ -92,7 +92,7 @@ describe 'Feature Test: User Signup', :type => :feature do
   end
 
 
-
+end 
 
 #describe 'Feature Test: User Signout', :type => :feature do
 
