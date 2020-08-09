@@ -91,7 +91,7 @@ describe 'Feature Test: User Signup', :type => :feature do
     expect(page.get_rack_session_key('user_id')).to_not be_nil
   end
 
-end
+
 
 
 #describe 'Feature Test: User Signout', :type => :feature do
